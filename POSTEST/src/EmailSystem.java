@@ -12,7 +12,6 @@ interface WhatsAppNotifier {
     void sendWhatsApp();
 }
 
-// EmailSystem hanya mengimplementasikan apa yang dia butuhkan
 class EmailSystem implements EmailNotifier {
     @Override
     public void sendEmail() {
